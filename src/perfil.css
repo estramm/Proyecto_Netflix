@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.perfil {
+    background-color: black;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.logo {
+    width: 165px;
+    position: relative;
+    top: 25px;
+    left: 30px;
+}
+
+.elegir_perfil {
+    color: white;
+    margin: 40px auto 100px;
+    padding: 70px 60px 150px;
+    width: 800px;
+    box-sizing: border-box;
+}
+
+.elegir_perfil h1 {
+    margin: 0px 0px 25px;
+    font: 30px;
+    text-align: center;
+}
+
+.perfiles {
+    width: 700px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.perfiles p {
+    font-size: 20px;
+    text-align: center;
+    color: gray;
+}
+
+.perfiles img {
+    width: 150px;
+    height: 150px;
+    border: gray solid 1px;
+}
+
+.pie_perfil {
+    width: 700px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.pie_perfil h3 {
+    border: gray solid 1px;
+    color: white;
+    width: 210px;
+    font-size: 15px;
+    text-align: center;
+    padding: 10px;
+}
+
+.pie_perfil a {
+    text-decoration: none;
+}

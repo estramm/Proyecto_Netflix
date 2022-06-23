@@ -1,0 +1,182 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.inicio {
+    background-image: linear-gradient(to right bottom, rgba(0,0,0,0.6),rgba(0,0,0,0.445)), url(/images/fondo-netflix-inicio-sesion.jpg);
+    background-position: top;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.logo {
+    /* display: block; */
+    width: 165px;
+    position: relative;
+    top: 25px;
+    left: 30px;
+}
+
+.iniciar_sesion {
+    background-color: rgba(0, 0, 0, 0.75);
+    color:#8C8C8C;
+    margin: 40px auto 100px;
+    padding: 70px 60px 150px;
+    width: 450px;
+    box-sizing: border-box;
+}
+
+.iniciar_sesion h2 {
+    margin: 0px 0px 25px;
+    font-size: 30px;
+    color: white;
+}
+
+.iniciar_sesion input {
+    display: block;
+    color: white;
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    box-sizing: border-box;
+}
+
+.iniciar_sesion input[type="text"],
+.iniciar_sesion input[type="password"] {
+    background-color: #353535;
+    font-size: 15px;
+    outline: none; /* Puede que no sea necesario */
+    margin-bottom: 20px;
+    padding: 0px 20px;
+}
+
+.iniciar_sesion input[type="submit"] {
+    background-color: red;
+    font-size: 16px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+.iniciar_sesion .adicional {
+    margin-top: 12px;
+    padding: 0px;
+    font-size: 13px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.iniciar_sesion .adicional .checkbox_recuerdame {
+    display: flex;
+    align-items: center;
+}
+
+.checkbox_recuerdame input {
+    width: 20px;
+    height: 20px;
+}
+
+.checkbox_recuerdame label {
+    margin-left: 5px;
+    width: 100%;
+}
+
+.adicional .ayuda a {
+    text-decoration: none;
+    color: #8C8C8C;
+}
+
+.adicional .ayuda a:hover {
+    text-decoration: underline;
+}
+
+.pie_inicio_sesion {
+    margin-top: 50px;
+}
+
+.pie_inicio_sesion .primera_vez {
+    font-size: 16px;
+}
+
+.pie_inicio_sesion .primera_vez a {
+    color: white;
+    text-decoration: none;
+}
+
+.pie_inicio_sesion .primera_vez a:hover {
+    text-decoration: underline;
+}
+
+.pie_inicio_sesion .recaptcha {
+    font-size: 13px;
+}
+
+.pie_inicio_sesion .recaptcha a {
+    text-decoration: none;
+    color: #0078EB;
+}
+
+.pie_inicio_sesion .recaptcha a:hover {
+    text-decoration: underline;
+}
+
+.pie_pagina {
+    padding: 25px 40px 50px;
+    background-color: rgba(0, 0, 0, 0.75);
+    margin: auto;
+}
+
+.info {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.info p {
+    color: gray;
+}
+
+.info p a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.pie_pagina a:hover {
+    text-decoration: underline;
+}
+
+.hipervinculos {
+    margin: 20px 0;
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    padding: 0px;
+}
+
+.item {
+    width: 250px;
+    min-width: 200px;
+}
+
+.item a {
+    color: gray;
+    font-size: 13px;
+    margin: 10px;
+    text-decoration: none;
+}
+
+.pie_pagina select {
+    background-color: black;
+    border: 1px solid rgba(128,128,128,0.466);
+    color: gray;
+    outline: none;
+    padding: 13px;
+}
+
+.error {
+    background-image: url(/images/error-404.png);
+    background-position: top;
+    min-width: 100%;
+    min-height: 100%;
+}
